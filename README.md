@@ -2,6 +2,8 @@
 
 This Python-based automation tool integrates the IQ Reseller ERP system with eBay's API to streamline inventory management and automate product listing processes. The program minimizes manual effort and ensures accurate, up-to-date inventory data on eBay.  
 
+The program is set to run each week. The first file 'week0_initialsetup.py' is ran in the first week, and creates the initial datasets that are required for the program to run efficiently. Then the 'weekly_task.py' file is run every week after that.
+
 ## Features  
 - **Data Synchronization**: Retrieves weekly updates from the IQ Reseller ERP system.  
 - **Automated Listings**: Creates and uploads new product listings to eBay.
