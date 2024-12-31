@@ -15,36 +15,8 @@ This Python-based automation tool integrates the IQ Reseller ERP system with eBa
 - eBay developer account and API credentials  
 - IQ Reseller ERP system access  
 
-## Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/iq-reseller-ebay-integration.git
-   cd iq-reseller-ebay-integration
-   ```  
-2. Install the required libraries:  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-
-## Usage  
-1. Configure your API credentials in the `config.py` file:  
-   ```python
-   EBAY_API_KEY = "your-ebay-api-key"
-   IQ_RESELLER_API_KEY = "your-iq-reseller-api-key"
-   ```  
-2. Run the program:  
-   ```bash
-   python main.py
-   ```  
-
 ## How It Works  
 1. **Data Retrieval**: Pulls inventory data from the IQ Reseller ERP system.  
 2. **Data Processing**: Cleans and transforms the data to align with eBay's listing requirements.  
 3. **Product Listings**: Automates the creation and upload of new listings to eBay.  
 4. **Inventory Updates**: Tracks changes in inventory and sends update alerts.  
-
-## Contributing  
-Contributions are welcome! Please open an issue or submit a pull request for any suggestions or improvements.  
-
-## Contact  
-For questions or support, contact [your email].  
